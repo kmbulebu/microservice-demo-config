@@ -1,0 +1,9 @@
+endpoints:
+  restart:
+    enabled: true
+logging:
+  levels:
+    org.springframework.boot.env.PropertySourcesLoader: TRACE
+    org.springframework.web: DEBUG
+symbols:
+  celsius: 'C'
